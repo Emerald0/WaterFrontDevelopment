@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <link rel="stylesheet" type="text/css" href="contactStyles.css">
+    <script src="uihandler.js"></script>
+</head>
+<body>
+<div class="container">
+    <div>
+        <header class="header">
+            <img src="demo-img-2-2.png" id="DemoLogo" alt="Demo Logo" style="height: 108px; width: 180px">
+            <!--All the demo images that are found at "https://www.coolbreezeair.com/wp-content/uploads/2015/04/demo-img-2-2.png"-->
+            <h1>Waterfront Development</h1>
+        </header>
+    </div>
+
+    <div class="nav-container">
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="Index.html" target="_blank" class="dropbtn">Home</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li>
+                                <a href="">Link 1</a>
+                                <a href="">Link 2</a>
+                                <a href="">Link 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="Masterplan.html" target="_blank" class="dropbtn">Master Plan</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li>
+                                <a href="">Link 1</a>
+                                <a href="">Link 2</a>
+                                <a href="">Link 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="" class="dropbtn">See &amp; Do</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li>
+                                <a href="">Link 1</a>
+                                <a href="">Link 2</a>
+                                <a href="">Link 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="contact.html" class="dropbtn">About</a>
+                    <div class="dropdown-content">
+                        <ul style="list-style: none;">
+                            <li>
+                                <a href="">Link 1</a>
+                                <a href="">Link 2</a>
+                                <a href="">Link 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="Index.html" target="_blank" class="dropbtn">Contact</a>
+                    <div class="dropdown-content">
+                        <!--Navigation drop down links-->
+                        <ul style="list-style: none;">
+                            <li>
+                                <a href="">Link 1</a>
+                                <a href="">Link 2</a>
+                                <a href="">Link 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <form class="search-form">
+                <input id="searchingbar" type="text" name="serrching" placeholder="Search">
+            </form>
+        </nav>
+    </div>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="form">
+            <label id="name">Name:</label><textarea id="nameArea" class="input" rows="1" cols="50"  name="Name" placeholder="Please enter your name" required></textarea><br>
+            <br>
+            <label id="email">E-mail:</label><textarea id="emailArea" class="input" rows="1" cols="50" name="Mail" placeholder="Please enter your email" required></textarea><br>
+            <br>
+            <label id="message">Message:</label><textarea id="messageArea" class="input" rows="4" cols="50" name="Message" placeholder="Leave you message here"></textarea>
+            <button id="submit" onclick="check()" type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2017 Zhen Liang</p>
+    </footer>
+</div>
+</body>
+</html>
